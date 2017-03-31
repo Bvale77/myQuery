@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+		font-family: 'Font_book_Regular' !important;
+		font-size:14px;
+		color:#000000;	
+		margin:0px;
+		padding:0px;
+}
+
+#klett_contenitore{
+	width:100%;
+}
+
+#klett_header{
+	height:60px;
+	width:100%;
+	background:#828282;
+	padding:20px;
+}
+
+.klett_stile{
+		font-size:14px;
+		background-color:#ffcc00;
+		color:#ff6600;
+		height:30px;
+		padding:5px;
+		/*text-shadow: 0px 0px 0px #ff6600;*/
+		line-height:0px;
+	}
+
+	
+.klett_consegna{
+		font-family: 'Font_book_Bold' !important;
+		padding-top:20px;
+		padding-bottom:15px;
+		font-size:16px;
+		padding-left:20px;
+}
+	
+.klett_consegna1{
+		font-family: 'Font_book_Bold' !important;
+		padding-top:20px;
+		padding-bottom:15px;
+		font-size:16px;
+		padding-left:0px;
+}
+
+.klett_checked{
+	color:#079D26;
+}
+	
+	
+.risposta-multipla {
+		font-family: 'Font_book_Regular' !important;
+		font-size:14px;
+		text-align:center;
+  		background-color: #FFF; /* colore di sfondo    */
+  		border: 1px solid #ccc; /* bordo dell'elemento */		
+  		padding: 0;                /* padding             */
+  		font-weight:normal;
+		line-height:20px;
+		height:20px;
+  		width:150px;
+}
+
+.esercizio{
+		padding:10px;
+		line-height:30px;
+		padding-left:20px;
+}
+
+.spiegazione{
+		padding:10px;
+		padding-left:0px;
+		color:#1A5D8B;
+		width:100%;
+}
+
+.pulsanti{
+		padding-top:30px;
+		padding-bottom:15px;
+}
+	
+	
+	
+label{
+		font-family: 'Font_book_Regular' !important;
+		/*line-height:20px;*/
+		display: inline;
+		
+}

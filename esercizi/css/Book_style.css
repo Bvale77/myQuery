@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* CSS Document */
+
+	
+.book_titolo{
+	font-family: 'Font_book_Bold' !important;
+	color:#FFFFFF; 
+	font-size:20px; 
+}
+	
+.book_sottotitolo{
+	font-family: 'Font_book_Bold' !important;
+	padding-left:20px;
+	color:#000000; 
+	font-size:18px; 
+}
+
+.book_numUnita{
+	display:inline;
+	float:left;
+	padding-right:20px;
+}
+	
+.book_num{
+	font-family: 'Font_book_Bold' !important;
+	color:#0074ba;
+}
+
+.book_consegna{
+	font-family: 'Font_book_Bold' !important;
+}
+
+
+.book_esempio{
+	font-family: 'Font_book_Italic' !important;
+	color:#888888;
+}
+	
+.book_num_cerchio{
+		margin:6px;
+		font-size:16px;
+		font-weight:bold;
+		color:#FFF;
+		background-color:#000000;
+		border:solid 0px #000000;
+		 border-radius: 15px; 
+  		-moz-border-radius: 15px; /* firefox */
+  		-webkit-border-radius: 15px; /* safari, chrome */
+		width:30px;
+		height:30px;
+		text-align:center;
+		padding-top:4px;
+		float:left;
+	}
+
+.book_num_quadrato{
+		margin:6px;
+		font-size:16px;
+		font-weight:bold;
+		color:#00B1B1;
+		background-color:#D3EAE9;
+		width:30px;
+		height:30px;
+		text-align:center;
+		padding-top:4px;
+		float:left;
+}
+	
+	
+table, tbody, td{
+	padding:5px;
+	line-height:30px;
+}
+
+.table-border{
+	border:solid 1px;
+	border-color:#0074ba;
+}
+
+.book_bordoTab_bottom{
+		border-bottom:1px solid #128493;
+}
+
+.book_bordoTab_top{
+		border-top:1px solid #128493;
+}
+
+.book_bordoTab_left{
+		border-left:1px solid #128493;
+}
+
+.book_bordoTab_right{
+	border-right:1px solid #128493;
+}
+	
+	
+.book_evid_giallo{
+	background-color:#FFE84B;
+}
+
+.book_evid_grigio{
+	background-color:#D6D6D6;
+}
+
+.book_evid_rosa{
+	background-color:#F8DDD2;
+}
+
+.book_arancio{
+	color:#e65e36;
+}
+
+.book_rosso{
+	color:#BB392B;
+}
+		
+.book_blu{
+	color:#4CA5B0;
+}
+
+.book_lineetta{
+		font-weight:bold;
+}
+
+.book_rettangolo{
+	padding:5px;
+	border:1px solid #00B1B0;
+	display: inline;
+}
+
