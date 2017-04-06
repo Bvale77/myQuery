@@ -5,6 +5,10 @@
 //Tutto il codice compreso tra le due parentesi graffe verrà eseguito dopo, al caricamento della pagina.
 //il metodo addClass che, come suggerisce il nome stesso, aggiunge la classe in argomento all’oggetto selezionato
 $(document).ready(function() {
+	
+	$('<img/>').attr('id','nome').appendTo('#personale');
+	
+	
  $("q").addClass("evidenzia");
 });
 
@@ -82,5 +86,15 @@ $("div.lampadina").css("background-color","#F8F070").slideDown(2000);
 ...
 $("div.lampadina").css("background-color","#F8F070").slideUp(1500);
 ...*/
+
+//Move and insert the h1 element at the end of each p element
+$(document).ready(function(){
+    $("button").click(function(){
+        $("h1").appendTo("p");
+    });
+	
+	
+});
+
 
 

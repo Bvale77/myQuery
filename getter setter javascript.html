@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Documento senza titolo</title>
+</head>
+
+<body>
+<script type="text/javascript">
+      var studente={   
+         ultimoEsame:null,
+         trovato:false,
+         nome : "Marcello Rossi",
+         eta : 21,
+         matricola : "20A3456",
+         facolta : 'Giurisprudenza',
+         esamiSuperati : ['Diritto civile', 'Diritto privato'],
+         esamiPrimoAnno:['Economia politica','Esegesi delle fonti','Fiolsofia del diritto'],
+         getInformazioni : function(){
+             return this.nome+ ' ' +this.eta+ ' ' + this.matricola + ' ' + this.facolta+ ' ' +this.esamiSuperati
+             },
+         setEsame:function(es){
+             for(i=0;i<this.esamiPrimoAnno.length;i++){
+                if(this.esamiPrimoAnno[i]===es){
+                  this.ultimoEsame=es
+                  this.esamiSuperati.push(es)
+                  this.esamiPrimoAnno.splice(i, 1);
+                  this.trovato=true
+                  }
+               }
+               if(this.trovato===false){console.log('esame non conforme')}   
+            },
+         getEsame:function(){return this.ultimoEsame},
+       } 
+                        
+      studente.setEsame('Esegesi delle fonti')
+      console.log(studente.esamiSuperati)
+      console.log(studente.esamiPrimoAnno)
+      console.log(studente.ultimoEsame)
+      console.log(studente.getEsame())
+      console.log(studente.getInformazioni())  
+</script>
+</body>
+<script src="assets/js/jquery-3.2.0.js" type="text/javascript"></script>
+</html>

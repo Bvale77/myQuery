@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Documento senza titolo</title>
+</head>
+
+<body>
+<script type="text/javascript">
+         var studente={
+           nome : "Marcello Rossi",
+           eta : 21,
+           matricola : "20A3456",
+           facolta : 'Giurisprudenza',
+           esami : ['Diritto civile', 'Diritto privato'],
+           getInformazioni : function(){
+             return this.nome+ ' ' +this.eta+ ' ' + this.matricola + ' ' + this.facolta+ ' ' +this.esami[0]
+           }
+        }
+       console.log(studente.nome)//sintassi puntata
+       console.log(studente['eta'])// operatore subscrit
+       console.log(studente.esami[1])//raggiungiamo primo elemento array
+       console.log(studente.getInformazioni())//invochiamo la funzione
+       console.log(studente['getInformazioni'])// no
+       console.log(studente['esami'][0])// si
+       console.log(studente.residenza)//undefined residenza non esiste nell'oggetto
+       studente.eta=31//modifichiamo il valore di una proprietà esistente
+       console.log(studente.eta)
+       studente.residenza='Milano'//aggiungiamo la proprietà residenza
+       console.log(studente.residenza)//ora la proprietà esiste
+       delete studente.residenza// cancelliamo la proprietà residenza
+       console.log(studente.residenza)// risultato undefined
+</script>
+
+</body>
+<script src="assets/js/jquery-3.2.0.js" type="text/javascript"></script>
+</html>
